@@ -12,6 +12,7 @@ Just like the previous assignment, your app should have an activity and a conten
 Before we discuss the requirements of this assignment, here are two references for the Chord design:
 1. [Lecture slides on Chord](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring17/lectures/14-dht.pdf)
 2. [Chord paper](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring17/files/chord_sigcomm.pdf)
+
 The lecture slides give an overview, but do not discuss Chord in detail, so it should be a good reference to get an overall idea. The paper presents pseudo code for implementing Chord, so it should be a good reference for actual implementation.
 
 #### <span style="color:gray">Note</span>
