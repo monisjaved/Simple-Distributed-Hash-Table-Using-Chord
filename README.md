@@ -34,20 +34,21 @@ Just like the previous assignment, we have a project template you can import to 
 7. The template also defines a content provider authority and class. Please use it to implement your Chord functionalities.
 8. We will use SHA-1 as our hash function to generate keys. The following code snippet takes a string and generates a SHA-1 hash as a hexadecimal string. Please use it to generate your keys. The template already has the code, so you just need to use it at appropriate places. Given two keys, you can use the standard lexicographical string comparison to determine which one is greater.
 
+```
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Formatter;
 
-	import java.security.MessageDigest;
-    import java.security.NoSuchAlgorithmException;
-    import java.util.Formatter;
-
-    private String genHash(String input) throws NoSuchAlgorithmException {
-        MessageDigest sha1 = MessageDigest.getInstance("SHA-1");
-        byte[] sha1Hash = sha1.digest(input.getBytes());
-        Formatter formatter = new Formatter();
-        for (byte b : sha1Hash) {
-    		formatter.format("%02x", b);
-        }
-        return formatter.toString();
-    }
+private String genHash(String input) throws NoSuchAlgorithmException {
+	MessageDigest sha1 = MessageDigest.getInstance("SHA-1");
+	byte[] sha1Hash = sha1.digest(input.getBytes());
+	Formatter formatter = new Formatter();
+	for (byte b : sha1Hash) {
+		formatter.format("%02x", b);
+	}
+	return formatter.toString();
+}
+```
 
 ### <span style="color:gray">Step 1: Writing the Content Provider</span>
 First of all, your app should have a content provider. This content provider should implement all DHT functionalities. For example, it should create server and client threads (if this is what you decide to implement), open sockets, and respond to incoming requests; it should also implement a simplified version of the Chord routing protocol; lastly, it should also handle node joins. The following are the requirements for your content provider:
