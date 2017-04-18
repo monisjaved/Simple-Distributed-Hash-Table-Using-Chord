@@ -50,7 +50,6 @@ public class SimpleDhtProvider extends ContentProvider {
     private static final String RESULTS_FIELD = "results";
     private static final int SERVER_PORT = 10000;
     private String serverPortHash;
-    private String portStr;
     private String myPort;
     private String predId = null;
     private String succId = null;
@@ -64,7 +63,6 @@ public class SimpleDhtProvider extends ContentProvider {
     public int delete(Uri uri, String selection, String[] selectionArgs) {
         // TODO delete
         Log.e("DELETE", selection);
-        String[] columnNames = {"key", "value"};
         HashMap<String, String> msgMap = new HashMap<String, String>();
         String resp = null;
 
@@ -162,11 +160,11 @@ public class SimpleDhtProvider extends ContentProvider {
                 else
                     msgMap.put(PORT_KEY, values.getAsString(PORT_KEY));
 
-                if(succPort.equals(values.getAsString(PORT_KEY)) ||
+                if (keyHash != null && (succPort.equals(values.getAsString(PORT_KEY)) ||
                         (keyHash.compareTo(serverPortHash) > 0 && keyHash.compareTo(succId) <= 0 ||
                                 (succId.compareTo(serverPortHash) < 0 &&
                                         (keyHash.compareTo(serverPortHash) >= 0 ||
-                                                keyHash.compareTo(succId) <= 0)))) {
+                                                keyHash.compareTo(succId) <= 0))))) {
                     msgMap.put("FORCED", "TRUE");
                 }
                 try {
@@ -190,8 +188,9 @@ public class SimpleDhtProvider extends ContentProvider {
         // start dbHelper and serversocket
         dBHelper = new DBHelper(getContext());
 
+
         TelephonyManager tel = (TelephonyManager)getContext().getSystemService(Context.TELEPHONY_SERVICE);
-        portStr = tel.getLine1Number().substring(tel.getLine1Number().length() - 4);
+        String portStr = tel.getLine1Number().substring(tel.getLine1Number().length() - 4);
         myPort = String.valueOf((Integer.parseInt(portStr) * 2));
         String resp = null;
 

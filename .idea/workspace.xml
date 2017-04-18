@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7129403a-50d9-4848-bb12-84794acbe5e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/SimpleDhtProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/SimpleDhtProvider.java" />
     </list>
     <ignored path="SimpleDht.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,23 +83,46 @@
       <file leaf-file-name="SimpleDhtProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/SimpleDhtProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="247" column="19" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2178#2186#0" expanded="true" />
+                <element signature="e#2264#2280#0" expanded="true" />
+                <element signature="e#2516#2532#0" expanded="true" />
+                <element signature="e#4382#4398#0" expanded="true" />
+                <element signature="e#7994#8010#0" expanded="true" />
+                <element signature="e#9952#9968#0" expanded="true" />
+                <element signature="e#18029#18045#0" expanded="true" />
+                <element signature="e#22376#22392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="73" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_simple_dht_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_simple_dht_main.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -107,7 +131,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-              <folding />
+              <folding>
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1270,7 +1297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1355,9 +1381,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1730,7 +1757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492117292473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1492117520076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492117520076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1744,7 +1778,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.4914163" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1756,7 +1790,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32630274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32630274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1811,7 +1845,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1851,7 +1895,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1891,7 +1945,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1931,7 +1995,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1963,7 +2037,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1995,7 +2079,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2027,7 +2121,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2162,34 +2266,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_simple_dht_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_simple_dht_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/OnTestClickListener.java">
@@ -2197,6 +2282,28 @@
         <state relative-caret-position="2595">
           <caret line="183" column="58" selection-start-line="183" selection-start-column="58" selection-end-line="183" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2210,9 +2317,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/buffalo/cse/cse486586/simpledht/SimpleDhtProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="247" column="19" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2178#2186#0" expanded="true" />
+            <element signature="e#2264#2280#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#4382#4398#0" expanded="true" />
+            <element signature="e#7994#8010#0" expanded="true" />
+            <element signature="e#9952#9968#0" expanded="true" />
+            <element signature="e#18029#18045#0" expanded="true" />
+            <element signature="e#22376#22392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
